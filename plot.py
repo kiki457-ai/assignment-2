@@ -14,6 +14,9 @@ OUT_FILE = OUT_DIR / "vei_vs_deaths.png"
 
 # ---- Load data ----
 df = pd.read_csv(DATA_FILE, sep='\t')
+print("列名:", df.columns.tolist())
+print("前几行:")
+print(df.head())
 
 # Convert types
 df["Year"] = pd.to_numeric(df["Year"], errors="coerce")
