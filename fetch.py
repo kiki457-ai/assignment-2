@@ -1,6 +1,6 @@
 # /// script
 # requires-python = ">=3.12"
-# dependencies = ["requests", "pandas", "beautifulsoup4"]
+# dependencies = ["requests", "pandas", "lxml"]
 # ///
 
 import pandas as pd
